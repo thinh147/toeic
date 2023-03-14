@@ -1,0 +1,30 @@
+/* Importing Bootstrap SCSS file. */
+// @import "./variables";
+.body {
+    
+}
+
+.header {
+    height: 7vh;
+}
+
+.btn-primary {
+    background-color: #5595fb !important;
+}
+
+.bg-logo{
+    // background-color: #FEFFFF;
+    background-color: #5595fb;
+    // background-color: #015CE0;
+}
+
+.footer {
+    position: fixed;
+    width: 100vw;
+    bottom: 0px;
+    height: 5vh;
+    background: white
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
