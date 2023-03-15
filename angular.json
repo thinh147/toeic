@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bank": {
+    "toeic-test": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/bank",
+            "outputPath": "dist/toeic",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "bank:build:production"
+              "browserTarget": "toeic-test:build:production"
             },
             "development": {
-              "browserTarget": "bank:build:development"
+              "browserTarget": "toeic-test:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bank:build"
+            "browserTarget": "toeic-test:build"
           }
         },
         "test": {
